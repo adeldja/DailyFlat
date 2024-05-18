@@ -1,0 +1,41 @@
+/* UserSettingsForm.css */
+
+.settings-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .edit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

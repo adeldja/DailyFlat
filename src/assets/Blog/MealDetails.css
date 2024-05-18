@@ -1,0 +1,58 @@
+/* MealDetails.css */
+
+.meal-details-page {
+  padding: 30px;
+  background-color: #AFB6B5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /* Ajoutez une hauteur maximale et activez le défilement */
+
+  margin-top: 80px;
+  height: 85vh;
+  width: 120vh;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Style pour le slider */
+
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.ingredient-item {
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  text-align: center;
+  width: 99%;
+  border-color: white;
+}
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+/* Ajoutez d'autres styles selon vos préférences */
